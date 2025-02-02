@@ -5,11 +5,11 @@ import { Button } from './button';
 // Each argType takes a set of parameters that isn’t necessarily about the argument or prop itself,
 // but more about how you’d want Storybook to render the control in the table.
 const meta: Meta<typeof Button> = {
-  title: 'Button',
+  title: 'Components/Button',
   component: Button,
   args: {
-    // values that you can pass and default values
     children: 'Button',
+    // values that you can pass and default values
     variant: 'primary',
     size: 'medium',
     disabled: false,
