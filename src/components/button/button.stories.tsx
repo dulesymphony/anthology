@@ -91,3 +91,21 @@ export const Large: Story = {
     size: 'large',
   },
 };
+
+// Another way of doing dark mode
+// https://github.com/temporalio/ui/blob/main/src/lib/theme/plugin.ts
+export const Dark: Story = {
+  parameters: {
+    themes: {
+      themeOverride: 'dark',
+    },
+  },
+};
+
+export const Mobile: Story = {
+  parameters: {
+    viewport: {
+      defaultViewport: 'mobile1',
+    },
+  },
+};
